@@ -40,9 +40,8 @@ export const Logo = ({ size = 'medium', className = '' }: LogoProps) => {
       aria-label="xmail logo"
     >
       <div
-        className={`relative overflow-hidden transition-all duration-500 ease-out ${radiusMap[size]} ${clipWidthMap[size]} ${revealMaxMap[size]} bg-primary/95 ring-2 ring-white/15 shadow-[0_0_20px_rgba(74,158,255,0.3),0_0_40px_rgba(74,158,255,0.15)] group-hover:shadow-[0_0_30px_rgba(74,158,255,0.4),0_0_60px_rgba(74,158,255,0.2)]`}
+        className={`relative overflow-hidden transition-all duration-500 ease-out ${radiusMap[size]} bg-primary/95 ring-2 ring-white/15 shadow-[0_0_20px_rgba(74,158,255,0.3),0_0_40px_rgba(74,158,255,0.15)] group-hover:shadow-[0_0_30px_rgba(74,158,255,0.4),0_0_60px_rgba(74,158,255,0.2)]`}
       >
-        {/* Logo image */}
         <img
           src={xmailLogo}
           alt="xmail"
@@ -50,11 +49,6 @@ export const Logo = ({ size = 'medium', className = '' }: LogoProps) => {
           style={{
             filter: 'drop-shadow(0 0 12px rgba(74, 158, 255, 0.4))'
           }}
-        />
-
-        {/* Blue cover that slides away on hover */}
-        <div
-          className={`pointer-events-none absolute inset-0 z-10 ${radiusMap[size]} bg-primary transition-all duration-500 ease-out origin-left w-full group-hover:w-0`}
         />
       </div>
     </div>

@@ -10,7 +10,7 @@ export const SocialLinks = ({ className = '' }: SocialLinksProps) => {
     <div className={`flex items-center gap-2 sm:gap-3 ${className}`}>
       {/* X (Twitter) Link */}
       <a
-        href="https://x.com/xmail402"
+        href="https://x.com/xmail__official"
         target="_blank"
         rel="noopener noreferrer"
         className="cursor-hover opacity-70 hover:opacity-100 transition-all duration-300 hover:scale-110 hover:-rotate-6 active:scale-95 animate-slide-down-fade"

@@ -30,17 +30,6 @@ export const PitchDeckModal = ({ open, onOpenChange }: PitchDeckModalProps) => {
               allow="fullscreen"
             />
           </div>
-          <p className="text-xs text-muted-foreground mt-3 text-center">
-            <a 
-              href="https://www.canva.com/design/DAG8zmU9Cdk/5sLWqXCkNqlL9iFKOAIspg/view?utm_content=DAG8zmU9Cdk&utm_campaign=designshare&utm_medium=embeds&utm_source=link" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
-            >
-              xmail
-            </a>{' '}
-            by Prince Kyle Zeto Cabahug
-          </p>
         </div>
       </DialogContent>
     </Dialog>
